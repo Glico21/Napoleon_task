@@ -69,6 +69,7 @@ class Solution:
 
 
 if __name__ == '__main__':
+    print('Enter your roman number: ')
     roman_input = input()
     result = Solution().roman_to_int(roman_input)
     print(f'{roman_input} --> {result}')
